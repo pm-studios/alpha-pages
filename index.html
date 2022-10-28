@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=2560 height=1440></canvas>
+      <canvas id="unity-canvas" width=1280 height=720></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -62,7 +62,7 @@
         frameworkUrl: buildUrl + "/bin.framework.js.unityweb",
         codeUrl: buildUrl + "/bin.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
+        companyName: "PM-Studios",
         productName: "AlphaDistrict",
         productVersion: "1.0",
         showBanner: unityShowBanner,
@@ -91,8 +91,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "2560px";
-        canvas.style.height = "1440px";
+        canvas.style.width = "1280px";
+        canvas.style.height = "720px";
       }
 
       loadingBar.style.display = "block";
